@@ -26,6 +26,7 @@ img{
 }
 
 main{
+    padding: 1rem;
     margin: 30px;
     width: 50vw;
     text-align: center;
@@ -83,6 +84,7 @@ button:active{
 
 .info{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
@@ -97,7 +99,7 @@ input{
     border: none;
     background-color: #F1F1F1;
     border-radius: 4px;
-    padding: 1.5rem;
+    padding: 1.3rem;
     margin: 10px;
     width: 70%;
     text-align: center;
